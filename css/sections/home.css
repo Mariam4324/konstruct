@@ -1,6 +1,6 @@
 .home {
   padding: 41px 0 71px 0;
-  height: 769px;
+  max-height: 769px;
   background: url("../../img/bg@2x.webp") center center/cover no-repeat;
 }
 

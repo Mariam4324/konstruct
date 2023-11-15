@@ -53,6 +53,7 @@
   line-height: normal;
   letter-spacing: 0.5px;
   transition: 0.5s all;
+  cursor: pointer;
 }
 
 .capability__btn:hover {
@@ -80,6 +81,14 @@
 
 .capability__card:hover {
   background: #00a4e5;
+}
+
+.capability__card:hover .capability__subtitle {
+  color: #fff;
+}
+
+.capability__card:hover .capability__text {
+  color: #fff;
 }
 
 .capability__img {

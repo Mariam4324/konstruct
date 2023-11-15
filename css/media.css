@@ -1,0 +1,43 @@
+@media (max-width: 1300px) {
+  .container {
+    max-width: 696px;
+  }
+
+  .home {
+    padding: 41px 0 40px 0;
+  }
+
+  .home__title {
+    font-size: 45px;
+  }
+}
+
+@media (max-width: 750px) {
+  .container {
+    /* max-width: 600px; */
+  }
+
+  .home__title {
+    font-size: 30px;
+    font-weight: 500;
+  }
+
+  .home__subtitle {
+    font-size: 12px;
+  }
+
+  .story__right {
+    display: none;
+  }
+
+  .story__left {
+    margin: 45px auto 0;
+    text-align: center;
+  }
+}
+
+@media (max-width: 566px) {
+  .header__right {
+    display: none;
+  }
+}
