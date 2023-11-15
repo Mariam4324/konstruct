@@ -37,7 +37,15 @@
 }
 
 @media (max-width: 566px) {
+  .header__wrapper {
+    position: relative;
+  }
+
   .header__right {
     display: none;
+  }
+
+  .burger {
+    display: block;
   }
 }
