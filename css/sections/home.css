@@ -1,0 +1,47 @@
+.home {
+  padding: 41px 0 71px 0;
+  height: 769px;
+  background: url("../../img/bg@2x.webp") center center/cover no-repeat;
+}
+
+.home__logo {
+  margin: 0 auto;
+}
+
+.home__svg {
+  display: block;
+  margin: 0 auto;
+}
+
+.home__title {
+  margin-top: 305px;
+  color: #fff;
+  text-align: center;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 60px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 5.709px;
+}
+
+.home__subtitle {
+  color: #fff;
+  text-align: center;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.home__subtext {
+  margin-top: 221px;
+  color: #fff;
+  text-align: center;
+  font-family: "Open Sans";
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 3.7px;
+}
