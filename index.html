@@ -15,7 +15,7 @@
 </head>
 
 <body>
-    <section class="home">
+    <section id="home" class="home">
         <div class="container">
 
             <div class="home__logo">
@@ -45,11 +45,11 @@
                 </div>
                 <div class="header__right">
                     <ul class="header__menu">
-                        <li><a class="header__item" href="#">HOME</a></li>
-                        <li><a class="header__item" href="#">ABOUT</a></li>
-                        <li><a class="header__item" href="#">SERVICES</a></li>
-                        <li><a class="header__item" href="#">WORK</a></li>
-                        <li><a class="header__item" href="#">CONTACT</a></li>
+                        <li><a class="header__item" href="#home">HOME</a></li>
+                        <li><a class="header__item" href="#about">ABOUT</a></li>
+                        <li><a class="header__item" href="#services">SERVICES</a></li>
+                        <li><a class="header__item" href="#work">WORK</a></li>
+                        <li><a class="header__item" href="#contact">CONTACT</a></li>
                     </ul>
                 </div>
             </div>
@@ -57,9 +57,9 @@
         <hr class="header__line">
     </header>
 
-    <section class="story">
+    <section id="about" class="story">
         <div class="container">
-            <div class="story__title">OUR STORY</div>
+            <h2 class="story__title">OUR STORY</h2>
             <div class="story__line line"></div>
 
             <div class="story__wrapper">
@@ -91,11 +91,11 @@
     </section>
 
 
-    <section class="capability">
+    <section id="services" class="capability">
         <div class="container">
             <div class="capability__wrapper">
                 <div class="capability__left">
-                    <div class="capability__title">OUR CAPABILITIES</div>
+                    <h2 class="capability__title">OUR CAPABILITIES</h2>
                     <div class="capability__line line"></div>
                 </div>
                 <div class="capability__comment">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</div>
@@ -135,8 +135,23 @@
     </section>
 
     <footer class="footer">
-        <div class="container">
-            
+        <div id="work" class="footer__top">
+            <div class="container">
+                <h2 class="footer__title">Want to build something amazing?</h2>
+                <button class="footer__btn">GET IN TOUCH</button>
+            </div>
+        </div>
+
+        <div id="contact" class="footer__bottom">
+            <div class="container">
+                <div class="footer__form">
+                    <label class="footer__subttile" for="search">Newsletter Signup</label>
+                    <input class="footer__search" id="search" type="text" placeholder="test@youremail.com">
+                    <button class="footer__btn footer__btn_search">SIGNUP</button>
+                </div>
+
+                <div class="footer__author">© 2017 Konstruct Inc. Designed by Jane Kathryn Teo</div>
+            </div>
         </div>
     </footer>
 </body>
