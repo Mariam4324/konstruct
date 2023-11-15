@@ -1,8 +1,3 @@
-/* .footer {
-  height: 657px;
-  padding: 120px 0 23px;
-} */
-
 .footer__top {
   height: 499px;
   padding: 120px 0 306px;
@@ -21,6 +16,11 @@
   font-weight: 700;
   line-height: 36px;
   letter-spacing: 0.15px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .footer__btn {
@@ -70,6 +70,11 @@
   line-height: normal;
   letter-spacing: 0.846px;
   cursor: pointer;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .footer__search {
@@ -100,4 +105,9 @@
   font-weight: 400;
   line-height: normal;
   letter-spacing: 0.846px;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }

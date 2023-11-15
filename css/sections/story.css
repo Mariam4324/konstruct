@@ -12,6 +12,11 @@
   font-weight: 700;
   line-height: normal;
   letter-spacing: 2.306px;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .story__line {
@@ -52,6 +57,11 @@
   font-weight: 400;
   line-height: 23px;
   letter-spacing: 0.188px;
+  display: -webkit-box;
+  -webkit-line-clamp: 6;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .story__wrapper {
