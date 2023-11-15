@@ -10,13 +10,19 @@
   .home__title {
     font-size: 45px;
   }
-}
 
-@media (max-width: 750px) {
-  .container {
-    /* max-width: 600px; */
+  .capability__comment {
+    display: none;
   }
 
+  .capability__holder {
+    margin-top: 40px;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 770px) {
   .home__title {
     font-size: 30px;
     font-weight: 500;
@@ -34,6 +40,12 @@
     margin: 45px auto 0;
     text-align: center;
   }
+
+  .capability__holder {
+    gap: 20px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
 }
 
 @media (max-width: 566px) {
@@ -47,5 +59,19 @@
 
   .burger {
     display: block;
+  }
+
+  .capability__title {
+    /* font-size: 14px; */
+  }
+
+  .capability__btn {
+    font-weight: 500;
+  }
+}
+
+@media (max-width: 450px) {
+  .capability__btn {
+    display: none;
   }
 }

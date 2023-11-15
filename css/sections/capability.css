@@ -1,5 +1,5 @@
 .capability {
-  height: 561px;
+  min-height: 561px;
 }
 
 .capability__title {
